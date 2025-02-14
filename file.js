@@ -1,13 +1,22 @@
-let invitati = ["paolo@gmail.com","Luca@gmail.com", "john@gmail.com","kurt@gmail.com"];
-let mail = prompt("Inserisci la tua e-mail per verificare l'accesso") 
+const guestList = ["paolo@gmail.com","Luca@gmail.com", "john@gmail.com","kurt@gmail.com"];
+const Usermail = prompt("Inserisci la tua e-mail per verificare l'accesso") 
+console.log(guestList; Usermail);
 
-for (let i = 0; i< lista.length; i++) {
-    if (lista[i] === invitati ) {trovato = true
-        break;
+let = canAccess = false
+
+for (let index = 0; index <guestList.length; index++); {
+    console thisGuest = guestList [index];
+    if (thisGuest === userMail) {
+        canAccess = true 
+        break
     }
 }
-if (trovato) {
-    console.log ("Accesso consentito!");
+if (canAccess) = {
+    console.log (`Welcome to the party`)
+
 }
-else {console.log("Accesso non consentito")}
+else {
+    console.log ("message");
+}
+
 
